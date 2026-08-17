@@ -1,0 +1,81 @@
+import java.util.*;
+class Restorent
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Welcome to the Aadi's cafe :");
+		double balance = sc.nextDouble();
+		boolean isRunning = true;
+
+		while(isRunning)
+		{
+		System.out.println("Press 1 for starters");
+		System.out.println("Press 2 for main course");
+		System.out.println("Press 3 for cold drinks");
+		System.out.println("Press 4 to Generate bill");
+		System.out.println("Press 5 to Exit");
+
+		System.out.print("Enter your choice: ");
+		int menu = sc.nextInt();
+
+		switch(menu)
+		{
+			case 1:
+				
+				System.out.println("1. Soup         ...120/-");
+				System.out.println("2. noodles      ...160/-");
+				System.out.println("3. manchurian   ...180/-");
+				System.out.println("Enter your choice");
+				int st_menu = sc.nextInt();
+				System.out.println("Enter Qty");
+				int st_qty = sc.nextInt();
+				
+				if(st_menu == 1){
+					st_bill = (120 * st_qty);
+				}else if(st_menu == 2){
+					st_bill = (160 * st_qty);
+				}else if(st_menu == 3){
+					st_bill = (180 * st_qty);
+				}else{
+				System.out.println("Invalid Input!!");
+				}
+
+			break;
+
+			case 2:
+				System.out.print("Enter the amout you want to deposit: ");
+				int deposit = sc.nextInt();
+				if(deposit < 0){
+					System.out.println("Invalid deposit amount");
+				}else{
+					balance = balance + deposit;
+					System.out.println(deposit + "is added to your account. New balance is : "+ balance);
+				}
+			break;
+
+			case 3:
+				System.out.print("Enter the amout you want to withdraw: ");
+				int withdraw = sc.nextInt();
+				if(withdraw < 0 || withdraw > balance){
+					System.out.print("Invalid withdraw amount!");
+				}else{
+					balance = balance - withdraw;
+					System.out.println(withdraw + " is withdrwan from your account. New balance is: "+balance);
+				}
+			break;
+			
+			case 4:
+				System.out.println("Thank you for using ATM.");
+				isRunning = false;
+				return;
+			
+			default:
+				System.out.println("Invalid Input!!");
+
+		}
+				System.out.println();
+		}
+
+	}
+}

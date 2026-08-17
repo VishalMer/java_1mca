@@ -1,0 +1,6 @@
+class temp2
+{
+	static public void main(String k[]){
+		System.out.print("temp2");
+	}
+}
