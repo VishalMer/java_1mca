@@ -34,6 +34,6 @@ The codebase is organized into three main directories to separate assignments an
 
 ## 👤 Author
 
-**Vishal Mer**  
-GitHub: [@vishalmer](https://github.com/vishalmer)
-LinkedIn: [@vishalmer](https://www.linkedin.com/in/vishal-mer/)
+**Mer**  
+GitHub: [@vishalmer](https://github.com/vishalmer)  
+LinkedIn: [@vishal-mer](https://www.linkedin.com/in/vishal-mer/)
