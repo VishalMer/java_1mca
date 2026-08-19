@@ -20,7 +20,7 @@ The codebase is organized into three main directories to separate assignments an
 
 1.  Clone the repository to your local machine:
     ```bash
-    git clone [https://github.com/VishalMer/java_1mca.git](https://github.com/VishalMer/java_1mca.git)
+    git clone https://github.com/VishalMer/java_1mca.git
     ```
 2.  Open your terminal or command prompt and navigate to the directory of the file you want to run.
 3.  Compile the Java file:
