@@ -72,8 +72,9 @@ class MainMed {
 
         Medical m2 = new Medical(m1);
 
-        System.out.println("\nOriginal Medical Details:");
-        m1.display();
+        System.out.println("\\]yb
+n 9Original Medical Details:");
+  n      m1.display();
 
         System.out.println("\nDeep Copy Medical Details:");
         m2.display();
